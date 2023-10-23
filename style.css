@@ -360,6 +360,9 @@ picture {
 }
 
 @media (max-width: 370px) {
+    .banner__wrapper {
+        gap: 0;
+    }
     .banner__img--left {
         margin-left: -55px;
     }
