@@ -16,3 +16,10 @@ closeIcons.forEach((closeIcon) => {
         }
     });
 });
+
+const banner = document.querySelector(".banner__wrapper");
+
+banner.addEventListener("click", () => {
+    let link = banner.getAttribute("data-link");
+    window.location.href = link;
+});
