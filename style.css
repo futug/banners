@@ -16,7 +16,7 @@ body {
 .banner__wrapper {
     position: relative;
     display: flex;
-    max-height: 67px;
+    max-height: 77px;
 }
 picture {
     display: flex;
