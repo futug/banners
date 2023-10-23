@@ -366,4 +366,9 @@ picture {
     .banner__img--left {
         margin-left: -55px;
     }
+
+    .banner__button {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
 }
