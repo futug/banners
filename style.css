@@ -359,8 +359,8 @@ picture {
     } */
 }
 
-@media (max-width: 350px) {
-    .banner__img {
-        display: none;
+@media (max-width: 370px) {
+    .banner__img--left {
+        margin-left: -55px;
     }
 }
