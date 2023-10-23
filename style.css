@@ -16,7 +16,10 @@ body {
 .banner__wrapper {
     position: relative;
     display: flex;
-    max-height: 67px;
+    /* max-height: 67px; */
+}
+picture {
+    display: flex;
 }
 
 .image-sticky-bottom {
@@ -141,6 +144,9 @@ body {
 }
 
 @media (max-width: 1024px) {
+    .banner__wrapper {
+        max-height: none;
+    }
     .banner__title {
         font-size: 24px;
     }
