@@ -247,6 +247,10 @@ picture {
         margin-right: 0;
     }
 
+    .image-centered {
+        margin-left: 0;
+    }
+
     /* .img-1 {
         background-image: url("./img/1.png");
         background-repeat: no-repeat;
